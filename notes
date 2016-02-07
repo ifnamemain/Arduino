@@ -1,3 +1,5 @@
+# Random notes so I don't forget what I did
+
 Libraries written in C don't compile unless you 
 wrap the function declerations in the header 
 the following way:
