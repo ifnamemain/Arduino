@@ -1,0 +1,16 @@
+Libraries written in C don't compile unless you 
+wrap the function declerations in the header 
+the following way:
+    #ifdef __cplusplus
+    extern "C" {
+    #endif
+
+    void foo();
+
+    #ifdef __cplusplus
+    }
+    #endif
+You can also just change the library script to a .cpp extension.
+
+
+
